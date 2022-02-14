@@ -1,0 +1,68 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    align-items: center;
+    padding: auto auto;
+    margin-top: 15%;
+}
+
+body{
+    background-color: purple;
+gap: 1em;
+}
+
+h2{
+    text-align: center;
+    color: rgb(240, 154, 168);
+    /* background-color: #ddd; */
+    /* width: 50vw; */
+    font-weight: 500;
+    font-size: 5vw ;
+}
+.audio{
+    /* display: none; */
+    text-align: center;
+    /* width: 50%; */
+}
+
+audio{
+    width: 50%;
+}
+
+input{
+    border: none;
+    padding: 2vh 2vw;
+    color: white;
+    background-color: blueviolet;
+    font-weight: 700;
+}
+
+h3{
+    text-align: center;
+    font-weight: 300;
+    font-style: oblique;
+    margin-top: 5%;
+    /* width: 75%; */
+}
+
+p{
+    /* text-align: center; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#video1, #video2, #video3{
+    display: none;
+}
+
+.end{
+    text-align: center;
+    margin-top: 20%;
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image{
+    text-align: center;
+}
